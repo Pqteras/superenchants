@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "superenchants:block/upgrade_bench"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "item.superenchants.upgrade_template_shard": "Super Enchant Template Shard",
+  "item.superenchants.upgrade_template_shard.desc": "Used inside the Upgrade Bench for something powerful...",
+  "block.superenchants.upgrade_bench": "§dSuper Enchant Upgrade Bench",
+  "block.superenchants.upgrade_bench.desc": "Used to upgrade a normal enchantment to a super enchantment",
+  "block.superenchants.custom_enchanted_book": "§dSuper Enchanted Book"
+}

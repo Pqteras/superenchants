@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "superenchants:block/upgrade_bench_side",
+    "down": "superenchants:block/upgrade_bench_bottom",
+    "up": "superenchants:block/upgrade_bench_top",
+    "north": "superenchants:block/upgrade_bench_front",
+    "south": "superenchants:block/upgrade_bench_front",
+    "west": "superenchants:block/upgrade_bench_side",
+    "east": "superenchants:block/upgrade_bench_side"
+  }
+}

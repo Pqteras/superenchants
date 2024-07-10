@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "superenchants",
+  "version": "${version}",
+  "name": "superenchants",
+  "description": "Upgrade the normal enchantments to the next level!",
+  "authors": ["Pqteras"],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/superenchants/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.pqteras.superenchants.SuperEnchants"],
+    "client": ["net.pqteras.superenchants.SuperEnchantsClient"],
+    "fabric-datagen": ["net.pqteras.superenchants.SuperenchantsDataGenerator"]
+  },
+  "mixins": ["superenchants.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
